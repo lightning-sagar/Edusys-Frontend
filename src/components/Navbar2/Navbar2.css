@@ -1,0 +1,86 @@
+#navbar2 {
+
+  position: absolute;
+  background: linear-gradient(135deg, #6367a3, #26274d)!important;
+  /* background: linear-gradient(135deg, #ffe0b2, #ffcc80); */
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid #444;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+.navbar2-btn{
+  background: transparent;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 468px) {
+  .navbar2-btn{
+    font-size: 9px;
+  }
+}
+
+#navbar2-btn:hover {
+  transform: scale(1.1);
+}
+
+#chat-button {
+  background: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  transition: 0.3s ease-in-out;
+}
+
+#share-button {
+  background: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  transition: 0.3s ease-in-out;
+}
+
+#meet-button {
+  background: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  transition: 0.3s ease-in-out;
+}
+
+#info-button {
+  background: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  transition: 0.3s ease-in-out;
+}
+
+#create-button {
+  background: transparent;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  transition: 0.3s ease-in-out;
+}
+
+#create-button:hover,
+#chat-button:hover,
+#share-button:hover,
+#meet-button:hover,
+#info-button:hover {
+  transform: scale(1.1);
+}
